@@ -1,0 +1,222 @@
+.top{
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+.nav {
+    letter-spacing:5px;
+    width: 30%;
+    float: left;
+}
+.top-right{
+    letter-spacing:5px;
+    width: 30%;
+    float: right;
+    padding-left: 30px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+.top-right a{
+    text-decoration: none;
+    color: black;
+}
+.top-top{
+    width: 99%;
+    height: 56px;
+    padding-top: 10px;
+    padding-left: 15px;
+    background-color: white;
+
+}
+.top-search{
+    width: 500px;
+    height: 36px;
+    float: left;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+}
+.input-text{
+    overflow: hidden;
+    width: 444px;
+    height: 34px;
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+    color: #999;
+    font-size: 14px;
+    line-height: 34px;
+    transition: all .2s;
+}
+.button{
+    height: 36px;
+    width: 51px;
+
+
+}
+
+
+
+
+.box1 h4{font-size: 16px; font-weight: normal; line-height: 35px; vertical-align: middle; background-color: #F0F0F0;}
+.box4 h4{ font-size: 16px; font-weight: normal; line-height: 35px; vertical-align: middle; background-color: #F0F0F0;}
+.box h4 span { margin-right: 5px; border-left: 5px solid #2CBDF0;}
+.box dl { padding: 5px 12px; vertical-align: top; white-space: nowrap; }
+.box dl dt { display: block; font-size: 14px; line-height: 25px; color: #F0882C;}
+.box dl dd { display: block;}
+.box dl a { font-size: 13px; line-height: 25px; color: #707070; white-space: normal;text-decoration: none }
+.box dl a:hover { color: #2CBDF0;}
+.y dd { width: 150px; border: 1px solid #CBCBCB; border-radius: 10px; float: left; margin: 0 8px 8px; background-color: #F0F0F0;}
+.y dd a { display: block; font-size: 20px; line-height: 90px; text-align: center; color: #333;text-decoration: none}
+.y dd.hover a, .y dd:hover a { text-decoration: none; color: #FFF;}
+.y dd.hover, .y dd:hover { border: 1px solid #2CBDF0; color: #FFF; background-color: #2CBDF0;}
+
+.wz{
+    font-size: 10px;
+    width: 900px;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+.tp{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.bottle{
+    display: flex;
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.y {
+    display: flex;
+    width: 1200px;
+    height: 90px;
+    margin: 30px auto;
+}
+.y1{
+    display:block ;
+    width: 200px;
+    height: 100%;
+    margin-left: 100px;
+}
+.y2{
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+
+}
+.y3{
+    width: 200px;
+    height: 100%;
+    margin-left:10px;
+
+}
+.y4 {
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+}
+.y5{
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+
+}
+.y6{
+    width: 200px;
+    height: 100%;
+    margin-left: 10px;
+}
+.box{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    height: 75%;
+}
+.box1{
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 15%;
+}
+.box2{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15%;
+}
+.box3{
+    margin-top: 10px;
+  margin-left: 50px;
+    width: 15%;
+}
+.box4{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15%;
+}
+.box11{
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 15%;
+
+}
+*{
+    margin:0;
+    padding: 0;
+}
+#main{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+#main .banner-slide{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    display:none;
+}
+#main .slide-active{
+    display: block;
+}
+
+#main .dots #dots{
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 50px;/*(1200-5*130)/2*/
+}
+#main .dots #dots li{
+    height: 40px;
+    width: 80px;
+    border-radius: 99%;
+    background: hotpink;
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+}
+#main .dots #dots .li1{
+    background: blueviolet;
+}
+#main #left-right .move{
+    position: absolute;
+    margin-top:260px;
+    height: 80px;
+    width: 40px;
+    font-size: 50px;
+    padding-left: 10px ;
+}
+#main #left-right #next{
+    right:0;
+}
+#main #left-right .move:hover{
+    background: deepskyblue;
+}
+.dots{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
