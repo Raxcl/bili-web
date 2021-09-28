@@ -3,14 +3,14 @@ package cn.raxcl.dbhelper;
 import java.sql.*;
 
 public class DBHelper {
-    String url = "jdbc:mysql://106.54.170.191:3306/bili-web";
+    String url = "jdbc:mysql://106.54.170.191:3306/bili-web?useUnicode=true&characterEncoding=utf-8";
     String sqlName = "root";
     String sqlPass = "root";
     Connection conn =null;
     PreparedStatement pstat = null;
     ResultSet rs = null;
     public void getConnection() throws ClassNotFoundException, SQLException {
-        Class.forName("com.mysql.jdbc.Driver");
+        Class.forName("com.mysql.cj.jdbc.Driver");
         conn = DriverManager.getConnection(url,sqlName,sqlPass);
     }
     public void setPrepared(Object...objects) throws SQLException {
